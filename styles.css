@@ -1,0 +1,64 @@
+body {
+    background-color: bisque;
+    font-family: 'Inconsolata', monospace;
+}
+
+.main {
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+    
+}
+
+.logo {
+    text-align: center;
+    width: 250px;
+}
+
+.second {
+
+    text-align: center;
+    border-radius: 50px;
+}
+
+.sandwich {
+    width: 300px;
+    height: 300px;
+
+}
+
+.food-img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.pizza {
+    width: 300px;
+    height: 300px;
+    
+}
+
+.wings {
+    width: 300px;
+    height: 300px;
+}
+
+
+.food {
+    
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    margin: 0 auto;
+    padding: 10px 0;
+    
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
