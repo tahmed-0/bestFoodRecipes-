@@ -1,8 +1,10 @@
 body {
-    background-color: bisque;
+    background-color: rgb(116, 171, 223);
     font-family: 'Inconsolata', monospace;
 }
-
+h1 {
+    text-align: center;
+}
 .main {
     margin-bottom: 20px;
     text-align: center;
@@ -18,15 +20,15 @@ body {
 
 .second {
 
+    position: static;
     text-align: center;
     border-radius: 50px;
 }
+img {
+    border-radius: 8px;
+  }
 
-.sandwich {
-    width: 300px;
-    height: 300px;
 
-}
 
 .food-img {
     max-width: 100%;
@@ -34,13 +36,9 @@ body {
 
 }
 
-.pizza {
-    width: 300px;
-    height: 300px;
-    
-}
 
-.wings {
+
+.menu {
     width: 300px;
     height: 300px;
 }
@@ -54,8 +52,41 @@ body {
 
     margin: 0 auto;
     padding: 10px 0;
+   
     
 }
+
+.container {
+    
+    padding: 20px;
+    letter-spacing: 2px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+   text-align: center;
+   
+}
+
+.container:hover {
+    border-style: solid;
+    border-color: white;
+}
+
+
+ol li {
+    list-style-type: none;
+
+}
+
+.back {
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
 
 
 footer {
